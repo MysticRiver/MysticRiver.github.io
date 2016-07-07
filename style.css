@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  font-family: Oswald, Sans-serif;
+  font-size: 18px;
+  background: linear-gradient(180deg, yellow, red) fixed;
+  padding-top: 30px;
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+   color: white;
+}
+
+li{
+  text-align: left;
+}
+
+nav {
+  background: red;
+  color: #fff;
+  padding: 2px 0px 2px 0px;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav a {
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color:black;
+}
+
+nav *:last-child {
+  padding-right: 10px;
+}
+
+hr {
+  border-top: 2px solid #000;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+section {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+button {
+   border-radius: 5px;
+   color: white;
+   background: blue;
+}
+
+.linkedinbtn {
+   background: blue;
+}
+
+table {
+    margin: auto;
+}
