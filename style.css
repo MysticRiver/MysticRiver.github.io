@@ -69,3 +69,28 @@ button {
 table {
     margin: auto;
 }
+
+form{
+  display: inline-table;
+  margin: 5px;
+  }
+input{
+ font-family: "Montserrat", sans-serif;  /* custom font applied */
+width: 20em;                            /* custom width */
+height: 3em;                            /* custom height */
+border: 3px solid #ccc;               /* custom border */
+border-radius: 0.5em;                   /* added border radius */
+background-color: #feffdc;              /* light yellow background */
+padding: 0em 1em;                       /* right and left padding */
+
+}
+textarea {
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	margin-top: 5px;
+	border-radius: 0.5em;
+}
+iframe{
+  border:0;
+}
